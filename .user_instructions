@@ -1,0 +1,15 @@
+Erstelle eine Anwendung, die Doodle ersetzen kann.
+
+Damit sollen Menschen Termine abstimmen können, die vorher ein Administrator eingegeben hat. Termine haben einen Anfangszeitpunkt und einen Endzeitpunkt.
+
+Die Termine sollen in einer Tabelle dargestellt werden. Im Kopf der Tabelle sind die Termine Hor horizontal aufgelistet.
+
+Darunter haben die teilnehmenden Menschen die Möglichkeit, eine Zeile direkt auszufüllen, indem sie ihren Namen eingeben und Häckchen bei den Terminen setzen, an denensie Zeit haben. Alternativ können sie auch angeben, dass sie keine Zeit haben oder dass sie vielleicht können.
+
+Unter der Tabelle sollen in jeder Spalte, die Anzahl der Personen stehen, wie viel zu diesem jeweiligen Termin Zeit haben.
+
+Wenn du Doodle kennst, dann weißt du, dass dies genau so ist, wie dieses Produkt funktioniert.
+
+Die Eintragung des Namens und die Kennzeichnung der Termine, an denen man Zeit hat, eventuell Zeit hat oder keine Zeit hat, soll auf einer ohne Login zugänglichen öffentlichen Seite stattfinden.
+
+Es muss einen Link und einen zugehörigen QR-Code geben, mit dem man diese öffentliche Seite aufrufen kann. Dies soll auf der Management Oberfläche für die Anwendung mit zugänglich sein.

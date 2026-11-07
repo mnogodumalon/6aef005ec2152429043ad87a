@@ -1,0 +1,34 @@
+{
+  "entities": {
+    "Umfragen": {
+      "placeholders_set": 3,
+      "defaults_keys": [
+        "status"
+      ],
+      "computed_keys": [],
+      "reason": "Keine Formeln, da die Umfrage nur Stammdaten ohne Zahlen- oder Datumsfelder enthält; der Status startet mit Offen."
+    },
+    "Terminvorschläge": {
+      "placeholders_set": 4,
+      "defaults_keys": [
+        "beginn"
+      ],
+      "computed_keys": [
+        "_terminvorschlag_dauer_stunden"
+      ],
+      "reason": "Beginn und Ende bilden ein Paar, daher wird die Dauer in Stunden als virtuelles Feld berechnet; es gibt kein Preisfeld für eine Summe."
+    },
+    "Antworten": {
+      "placeholders_set": 4,
+      "defaults_keys": [],
+      "computed_keys": [],
+      "reason": "Keine Formeln, da Antworten nur Text- und Verknüpfungsfelder ohne numerische Berechnung enthalten."
+    },
+    "Terminantworten": {
+      "placeholders_set": 2,
+      "defaults_keys": [],
+      "computed_keys": [],
+      "reason": "Keine Formeln, da es nur Verknüpfungen und eine Auswahl ohne numerische Felder gibt, und kein Standardwert, weil die Auswahl bewusst getroffen werden soll."
+    }
+  }
+}

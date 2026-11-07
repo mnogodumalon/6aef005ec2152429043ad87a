@@ -1,0 +1,31 @@
+{
+  "pages": {
+    "en": {
+      "+{0} vielleicht": "+{0} maybe",
+      "Alles ruhig — keine offenen Rückmeldungen.": "All quiet — no pending responses.",
+      "Beste Zeit": "Best time",
+      "Erste Umfrage anlegen": "Create first poll",
+      "In „{0}“ passt {1} am besten — {2} haben Zeit.": "In \"{0}\", {1} works best — {2} available.",
+      "Keine offene Umfrage.": "No open polls.",
+      "Lege deine erste Umfrage an und teile den Link.": "Create your first poll and share the link.",
+      "Link & QR-Code zur Abstimmung": "Link & QR code for voting",
+      "Link kopieren": "Copy link",
+      "Neue Umfrage": "New poll",
+      "Noch keine Terminvorschläge.": "No proposed dates yet.",
+      "Noch keine Umfrage. Lege Terminvorschläge an und teile den Link — Teilnehmer stimmen ohne Login ab.": "No polls yet. Create proposed dates and share the link — participants vote without logging in.",
+      "Noch niemand": "Nobody yet",
+      "Noch niemand hat abgestimmt.": "Nobody has voted yet.",
+      "Offene Umfragen": "Open polls",
+      "Ohne Antworten": "No responses",
+      "Personen mit Zeit": "People available",
+      "Schließen": "Close",
+      "Teilnehmer": "Participants",
+      "Termin hinzufügen": "Add date",
+      "Umfrage schließen": "Close poll",
+      "Zuletzt hat {0} abgestimmt.": "{0} voted most recently.",
+      "noch offen": "still open",
+      "{0} wartet noch auf die erste Antwort.": "{0} is still waiting for the first response."
+    }
+  },
+  "v": 1
+}
