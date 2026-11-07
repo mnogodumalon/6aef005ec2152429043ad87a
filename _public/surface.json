@@ -1,0 +1,62 @@
+{
+  "version": 1,
+  "pages": [
+    {
+      "slug": "termin-abstimmen",
+      "component": "TerminAbstimmen",
+      "title": "Termin abstimmen",
+      "endpoints": [
+        {
+          "entity": "umfragen",
+          "op": "list",
+          "fields": [
+            "titel",
+            "beschreibung",
+            "ort"
+          ],
+          "scope": "r.v_status == 'offen'",
+          "scope_description": "zeigt nur Umfragen mit Status offen",
+          "max_records": 100
+        },
+        {
+          "entity": "terminvorschlaege",
+          "op": "list",
+          "fields": [
+            "umfrage",
+            "bezeichnung",
+            "beginn",
+            "ende"
+          ],
+          "max_records": 500
+        },
+        {
+          "entity": "terminantworten",
+          "op": "list",
+          "fields": [
+            "terminvorschlag",
+            "auswahl"
+          ],
+          "max_records": 500
+        },
+        {
+          "entity": "antworten",
+          "op": "create",
+          "fields": [
+            "umfrage",
+            "teilnehmer_vorname",
+            "teilnehmer_nachname",
+            "kommentar"
+          ]
+        },
+        {
+          "entity": "terminantworten",
+          "op": "create",
+          "fields": [
+            "antwort",
+            "terminvorschlag"
+          ]
+        }
+      ]
+    }
+  ]
+}
